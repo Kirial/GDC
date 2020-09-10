@@ -45,7 +45,7 @@ end gcd;
 --       (The starting point for the actual design work)
 --
 ------------------------------------------------------------------------------
-
+--hej
 architecture specification of gcd is
 begin
 	process
