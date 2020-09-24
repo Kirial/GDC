@@ -26,12 +26,12 @@ end gcd;
 
 architecture fsmd of gcd is
 
-  type state_type is ( ... ); -- Input your own state names
+  type state_type is ( IDLE_s, LOAD_A_s, WAIT_s, LOAD_B_s, COMPARE_s, A_GREATER_s, B_GREATER_s, ANSWER_s); -- Input your own state names
 
   signal reg_a, next_reg_a, next_reg_b, reg_b : unsigned(15 downto 0);
 
   signal state, next_state : state_type;
-
+ 
 
 begin
 
@@ -39,20 +39,108 @@ begin
 
   cl : process (req,ab,state,reg_a,reg_b,reset)
   begin
+    
+    C <= (others=>'0');
+    ack <= '0';
 
     case (state) is
+      when IDLE_s =>
 
-        ...< combinatorical body > ...
+        if req = '1' then
+            next_state <= LOAD_A_s;
+          else
+            next_state <= IDLE_s;
+        end if;
+
+      when LOAD_A_s =>
+
+        next_reg_a <=AB;
+        ack<='1';
+
+        if req = '0' then
+          next_state <= WAIT_s;
+        else
+          next_state <= LOAD_A_s;
+        end if;
+
+      when WAIT_s =>
+
+        ack <= '0';
+
+        if req = '1' then
+          next_state <= LOAD_B_s;
+        else
+          next_state <= WAIT_s;
+        end if;
+
+      when LOAD_B_s =>
+
+        next_reg_b <= AB;
+        next_state <= COMPARE_s;
+
+      when COMPARE_s =>
+        
+        if reg_a > reg_b then
+
+          next_state <= A_GREATER_s;
+
+        elsif reg_a < reg_b then
+
+          next_state <= B_GREATER_s;
+
+        elsif reg_a = reg_b then
+        
+          next_state <= ANSWER_s;
+
+        end if;
+
+      when A_GREATER_s =>
+
+        next_reg_a<= reg_a - reg_b;
+        next_state <= COMPARE_s;
+
+      when B_GREATER_s =>
+
+        next_reg_b<=reg_b - reg_a;
+        next_state <= COMPARE_s;
+
+      when ANSWER_s =>
+
+        C <= reg_a;
+        ack <= '1';
+
+        if req = '0' then
+          next_state <= IDLE_s;
+        else
+          next_state <= ANSWER_s;
+        end if;
 
     end case;
+
   end process cl;
 
   -- Registers
 
   seq : process (clk, reset)
   begin
+    
+    if rising_edge(clk) then
+      
+      if reset = '1' then
 
-    ...< register body >...
+        state <= IDLE_s;
+        reg_a <= (others => '0');
+        reg_b <= (others => '0');
+
+      else
+
+        reg_a <= next_reg_a;
+        reg_b <= next_reg_b;
+        state <= next_state;
+        
+      end if;
+
+    end if; 
 
   end process seq;
 

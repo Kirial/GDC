@@ -1,0 +1,277 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 9948
+License: Customer
+
+Current time: 	Thu Sep 24 11:46:26 CEST 2020
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Bruger
+User home directory: C:/Users/Bruger
+User working directory: C:/Users/Bruger/Documents/GitHub/GDC/GCD1project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/Bruger/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/Bruger/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/Bruger/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/vivado.log
+Vivado journal file location: 	C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/vivado.jou
+Engine tmp dir: 	C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/.Xil/Vivado-9948-LAPTOP-TVT1D5S3
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,019 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 93 MB (+95136kb) [00:00:16]
+// [Engine Memory]: 1,019 MB (+916822kb) [00:00:16]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Bruger\Documents\GitHub\GDC\GCD1project\GCD1project.xpr. Version: Vivado v2020.1 
+// Tcl Message: open_project C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 50 MB. Current time: 9/24/20, 11:46:28 AM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 105 MB (+7127kb) [00:00:34]
+// WARNING: HEventQueue.dispatchEvent() is taking  6885 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 1037.641 ; gain = 0.000 
+// Project name: GCD1project; location: C:/Users/Bruger/Documents/GitHub/GDC/GCD1project; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 219ms to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 116 MB (+6506kb) [00:02:36]
+// Elapsed time: 118 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// PAPropertyPanels.initPanels (gcd.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, gcd.vhd]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, gcd.vhd]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// [GUI Memory]: 131 MB (+9133kb) [00:02:41]
+// WARNING: HEventQueue.dispatchEvent() is taking  1087 ms.
+// Elapsed time: 53 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_top(fsmd_io) (gcd_top.vhd)]", 3); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_top(fsmd_io) (gcd_top.vhd), u2 : gcd(fsmd) (gcd.vhd)]", 5, false); // B (F, cs)
+// Elapsed time: 24 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cs)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cs)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cs)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 465ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 70 MB. Current time: 9/24/20, 12:16:28 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 452ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 9/24/20, 12:46:29 PM CEST
+// Elapsed time: 4067 seconds
+selectCodeEditor("gcd.vhd", 208, 254, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectCodeEditor("gcd.vhd", 13, 338); // bP (w, cs)
+selectCodeEditor("gcd.vhd", 40, 311); // bP (w, cs)
+selectCodeEditor("gcd.vhd", 40, 311, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("gcd.vhd", 67, 353); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 935 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (ds, cs)
+selectCodeEditor("gcd.vhd", 125, 176); // bP (w, cs)
+selectCodeEditor("gcd.vhd", 179, 194); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("gcd.vhd", 249, 24); // bP (w, cs)
+selectCodeEditor("gcd.vhd", 249, 24, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "gcd.vhd", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "gcd.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("gcd.vhd", 233, 466, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("gcd.vhd", 274, 256); // bP (w, cs)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (ds, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 62 MB. Current time: 9/24/20, 1:16:29 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 883 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (ds, cs)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 60 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (ds, cs)
+// Elapsed time: 85 seconds
+selectCodeEditor("gcd.vhd", 54, 178); // bP (w, cs)
+selectCodeEditor("gcd.vhd", 180, 99); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (ds, cs)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (ds, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 71 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (ds, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 57 seconds
+selectCodeEditor("gcd.vhd", 83, 148); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 114 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_top(fsmd_io) (gcd_top.vhd)]", 1, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_tb(behaviour) (gcd_tb.vhd)]", 4); // B (F, cs)
+// PAPropertyPanels.initPanels (gcd_tb.vhd) elapsed time: 0.2s
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_tb(behaviour) (gcd_tb.vhd)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_tb(behaviour) (gcd_tb.vhd)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_tb(behaviour) (gcd_tb.vhd)]", 4, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_tb(behaviour) (gcd_tb.vhd)]", 4, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top gcd_tb [current_fileset] 
+// bz (cs):  Set as Top : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (gcd_tb.vhd) elapsed time: 0.2s
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_top(fsmd_io) (gcd_top.vhd)]", 2); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_top(fsmd_io) (gcd_top.vhd)]", 2); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_tb(behaviour) (gcd_tb.vhd)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_top(fsmd_io) (gcd_top.vhd)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_top(fsmd_io) (gcd_top.vhd)]", 3, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+// Elapsed time: 23 seconds
+selectCodeEditor("gcd_tb.vhd", 74, 334); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_tb(behaviour) (gcd_tb.vhd)]", 1, true); // B (F, cs) - Node
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'gcd_top' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj gcd_top_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bruger/Documents/GitHub/GDC/task2/debounce.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'debounce' INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bruger/Documents/GitHub/GDC/task2/gcd.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'gcd' INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bruger/Documents/GitHub/GDC/task2/gcd_top.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'gcd_top' 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1037.641 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '8' seconds INFO: [USF-XSim-3] XSim::Elaborate design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 0f48bb017cc94206ba72c216b1797a1e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot gcd_top_behav xil_defaultlib.gcd_top -log elaborate.log" 
+// Tcl Message: Built simulation snapshot gcd_top_behav 
+// Tcl Message:  ****** Webtalk v2020.1 (64-bit)   **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020   **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.sim/sim_1/behav/xsim/xsim.dir/gcd_top_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.sim/sim_1/behav/xsim/xsim.dir/gcd_top_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Sep 24 13:38:48 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 113.871 ; gain = 17.621 INFO: [Common 17-206] Exiting Webtalk at Thu Sep 24 13:38:48 2020... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:27 . Memory (MB): peak = 1037.641 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '27' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "gcd_top_behav -key {Behavioral:sim_1:Functional:gcd_top} -tclbatch {gcd_top.tcl} -log {simulate.log}" 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.1 
+// Elapsed time: 182 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Elapsed time: 303 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 486 seconds
+selectCodeEditor("gcd_tb.vhd", 75, 232); // bP (w, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+selectCodeEditor("gcd_tb.vhd", 131, 153); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 64 MB. Current time: 9/24/20, 1:46:29 PM CEST
+// Elapsed time: 593 seconds
+closeMainWindow("GCD1project - [C:/Users/Bruger/Documents/GitHub/GDC/GCD1project/GCD1project.xpr] - Vivado 2020.1"); // cs
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'
