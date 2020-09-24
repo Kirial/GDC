@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Task2_jesper.srcs/sources_1/imports/GDC/task2/gcd.vhd" \
+"../../../../Task2_jesper.srcs/sources_1/imports/GDC/task1/gcd_tb.vhd" \
+
+# Do not sort compile order
+nosort
