@@ -20,7 +20,7 @@ architecture behavioral of debounce is
 	signal sw_reg1, sw_reg2      : std_logic;
 begin
 
-	process(clk)
+	process(clk,reset)
 	begin
 		if reset='1' then
 			sw_reg2 <= '0';
