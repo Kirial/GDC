@@ -37,12 +37,15 @@ begin
 
   -- Combinatoriel logic
 
-  cl : process (req,ab,state,reg_a,reg_b,reset)
+  cl : process (all)
   begin
     
     C <= (others=>'0');
     ack <= '0';
-
+    next_state<=state;
+    next_reg_a <= reg_a;
+    next_reg_b <= reg_b;
+    
     case (state) is
       when IDLE_s =>
 

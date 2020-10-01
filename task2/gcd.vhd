@@ -88,7 +88,7 @@ begin
 
           next_state <= B_GREATER_s;
 
-        elsif reg_a = reg_b then
+        else reg_a = reg_b then
         
           next_state <= ANSWER_s;
 
@@ -101,7 +101,7 @@ begin
 
       when B_GREATER_s =>
 
-        next_reg_b<=reg_b - reg_a;
+        next_reg_b<= reg_b - reg_a;
         next_state <= COMPARE_s;
 
       when ANSWER_s =>

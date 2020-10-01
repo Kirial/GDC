@@ -2,11 +2,11 @@
 # Webtalk v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu Sep 24 14:33:07 2020
-# Process ID: 19304
-# Current directory: C:/Users/Jesper Kirial/source/repos/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source C:/Users/Jesper Kirial/source/repos/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: C:/Users/Jesper Kirial/source/repos/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: C:/Users/Jesper Kirial/source/repos/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim\webtalk.jou
+# Start of session at: Thu Sep 24 14:53:52 2020
+# Process ID: 4376
+# Current directory: C:/Users/Bruger/Documents/GitHub/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Bruger/Documents/GitHub/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Bruger/Documents/GitHub/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Bruger/Documents/GitHub/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source C:/Users/Jesper -notrace
+source C:/Users/Bruger/Documents/GitHub/GDC/task2/Task2_jesper/Task2_jesper.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/xsim_webtalk.tcl -notrace
